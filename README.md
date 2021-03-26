@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- [See the solution](https://your-solution-url.com)
+- [See the solution](https://www.frontendmentor.io/solutions/html-and-scss-2wkN9ybdK)
 - [See the live site](https://huddle-landing-page-topaz-delta.vercel.app/)
 
 ## Built with
