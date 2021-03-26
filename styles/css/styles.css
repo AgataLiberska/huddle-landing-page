@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+html {
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #674baf;
+  background-image: url("/images/bg-mobile.svg");
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+main {
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
