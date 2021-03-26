@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+html {
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #674baf;
+  background-image: url("/images/bg-mobile.svg");
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+@media (min-width: 64rem) {
+  body {
+    background-image: url("/images/bg-desktop.svg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+main {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.huddle__header {
+  padding: 2.5rem 2.5rem 3.5rem;
+  text-align: left;
+  overflow-x: hidden;
+}
+
+@media (min-width: 64rem) {
+  .huddle__header {
+    max-width: 85rem;
+    margin: auto;
+    padding: 4rem 2.5rem 6rem;
+  }
+}
+
+.huddle__header img {
+  height: auto;
+  width: 7.5rem;
+}
+
+@media (min-width: 64rem) {
+  .huddle__header img {
+    width: 12.5rem;
+    height: auto;
+  }
+}
+
+.huddle__container {
+  max-width: 85rem;
+  margin: auto;
+  padding: 0 2.5rem;
+  overflow-x: hidden;
+}
+
+@media (min-width: 64rem) {
+  .huddle__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.huddle__illustration {
+  height: 55vw;
+  max-height: 39rem;
+  width: 100%;
+  max-width: 43.5rem;
+  margin: 0 auto 3.75rem;
+  background-image: url("/images/illustration-mockups.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 64rem) {
+  .huddle__illustration {
+    width: 54%;
+    max-height: 30.75rem;
+    margin: 0;
+  }
+}
+
+.huddle__intro {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+@media (min-width: 64rem) {
+  .huddle__intro {
+    width: 40%;
+    text-align: left;
+  }
+}
+
+.huddle__intro__heading {
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #ffffff;
+}
+
+@media (min-width: 64rem) {
+  .huddle__intro__heading {
+    margin: 2.25rem 0 1.5rem;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+  }
+}
+
+.huddle__intro__text {
+  margin-bottom: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+}
+
+@media (min-width: 64rem) {
+  .huddle__intro__text {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.huddle__intro__cta {
+  display: inline-block;
+  width: 12.5rem;
+  padding: 0.75rem 0 0.625rem;
+  background: #ffffff;
+  border-radius: 1.25rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  color: #674baf;
+  text-decoration: none;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+  -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+}
+
+.huddle__intro__cta:hover, .huddle__intro__cta:focus {
+  outline: 0;
+  background-color: #e882e8;
+}
+
+@media (min-width: 64rem) {
+  .huddle__intro__cta {
+    text-align: center;
+    padding: 0.75rem 0 1rem;
+    border-radius: 1.75rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.huddle__footer {
+  padding-bottom: 2.5rem;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+@media (min-width: 64rem) {
+  .huddle__footer {
+    max-width: 85rem;
+    margin: auto;
+    padding: 0 2.5rem 2.5rem;
+    text-align: right;
+  }
+}
+
+.huddle__footer__link {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2rem;
+  width: 2rem;
+  margin: 0 0.5rem;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: white;
+  -webkit-transition: border 200ms ease-in-out, color 200ms ease-in-out;
+  transition: border 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+.huddle__footer__link:hover, .huddle__footer__link:focus {
+  outline: 0;
+  border: 1px solid #e882e8;
+  color: #e882e8;
+}
+
+@media (min-width: 64rem) {
+  .huddle__footer__link {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
